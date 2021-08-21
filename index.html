@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Coding Quiz!</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h3><a class="highScores" href="#">View Highscores</a></h3>
+        <h3>Time: <span class="time">90</span></h3>
+    </header>
+    <main>
+        <div class="intro">
+            <h1>JavaScript Coding Quiz!</h1>
+            <p>Test your knowledge of JavaScript with this timed quiz. Note: incorrect answers will take off 5 seconds from the timer!</p>
+            <button id="startQuiz" type="button">Start Quiz</button>
+        </div>
+        <div class="qBox">
+            <p class="question"></p>
+            <ul class="options">
+                <li class="option1"></li>
+                <li class="option2"></li>
+                <li class="option3"></li>
+                <li class="option4"></li>
+            </ul>
+        </div>
+        <div class="quizEnd">
+            <h2>Finished!</h2>
+            <p>Your final score is:</p>
+            <p class="score"></p>
+            <form>
+                Enter Initials: <input type="text">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="highScores">
+            <h2>High scores</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Initials</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </main>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
