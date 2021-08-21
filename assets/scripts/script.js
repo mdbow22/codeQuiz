@@ -1,6 +1,11 @@
 //Element Selectors
+let intro = document.querySelector('.intro');
+let qBox = document.querySelector('.qBox');
 let start = document.querySelector('#startQuiz');
 let secLeft = document.querySelector('.time');
+let quesContent = document.querySelector('.question');
+let optionList = document.querySelector('.options');
+let options = optionList.querySelectorAll('li');
 
 //global variables
 let timer;
@@ -11,13 +16,18 @@ function init() {
 }
 
 function startQuiz() {
+    intro.style.display = 'none';
+    qBox.style.display = 'block';
     setTimer();
     genQuestion(0);
 }
 
 //Generate each question onto the page
 function genQuestion(qNum) {
-
+    quesContent.textContent = questions[qNum].question;
+    for (let i = 0; i < options.length; i++) {
+        options[i].textContent = questions[qNum].options[i];
+    }
 }
 
 //Set the timer and check if quiz is over

@@ -1,6 +1,6 @@
 let questions = [{
-        question: 'What JS keyword is best practice for initializing a variable?',
-        options: ['let', 'var', 'const', 'butt'],
+        question: 'What JS keyword is best practice for declaring a variable?',
+        options: ['let', 'var', 'make', 'butt'],
         answer: 'let'
     },
     {
