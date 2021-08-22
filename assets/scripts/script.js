@@ -131,7 +131,7 @@ function scoreKeep() {
     newRow.appendChild(addedScore);
     scoreTable.appendChild(newRow);
     finished.style.display = 'none';
-    scoreView.style.display = 'block';
+    scoreView.style.display = 'flex';
 }
 
 //All Event Listeners
