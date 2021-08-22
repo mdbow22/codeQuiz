@@ -15,7 +15,10 @@ Screenshot of the page at initial load:
 ![screenshot of initial page load](https://github.com/mdbow22/codeQuiz/blob/4d6cd21791215175837b231f485fc6e767d3d9cd/assets/images/introScrnShot.PNG)
 
 Screenshot of how each question appears:
+![screenshot of a question](https://github.com/mdbow22/codeQuiz/blob/c3954559781c347a5e7c2f319e1c4f2f43fd0de5/assets/images/questionScrnShot.PNG)
 
 Screenshot of the end of the quiz:
+![look of page after quiz finishes](https://github.com/mdbow22/codeQuiz/blob/c3954559781c347a5e7c2f319e1c4f2f43fd0de5/assets/images/finishedScrnShot.PNG)
 
 Screenshot of the high scores:
+![highscores table](https://github.com/mdbow22/codeQuiz/blob/c3954559781c347a5e7c2f319e1c4f2f43fd0de5/assets/images/scoresScrnShot.PNG)
