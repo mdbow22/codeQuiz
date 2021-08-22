@@ -12,6 +12,7 @@ This app is a timed quiz testing knowledge of basic JavaScript information.
 ## Screenshots
 
 Screenshot of the page at initial load:
+![screenshot of initial page load](https://github.com/mdbow22/codeQuiz/blob/4d6cd21791215175837b231f485fc6e767d3d9cd/assets/images/introScrnShot.PNG)
 
 Screenshot of how each question appears:
 
