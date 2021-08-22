@@ -159,7 +159,7 @@ scoreSubmit.addEventListener('submit', function(event) {
 viewScores.addEventListener('click', function() {
     intro.style.display = 'none';
     qBox.style.display = 'none';
-    scoreView.style.display = 'block';
+    scoreView.style.display = 'flex';
     if (timer > 0) {
         clearInterval(time);
     }

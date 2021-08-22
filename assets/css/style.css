@@ -70,4 +70,32 @@ li:hover {
 
 .highScores {
     display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#scoreTable {
+    border-spacing: 0;
+    border: 2px solid black;
+}
+
+#scoreTable td,
+#scoreTable th {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+#scoreTable td:nth-child(odd),
+#scoreTable th:nth-child(odd) {
+    border-right: 2px solid black;
+}
+
+#scoreTable th {
+    border-bottom: 2px solid black;
+}
+
+#scoreTable tr:nth-child(even) {
+    background-color: rgb(212, 165, 212);
 }
