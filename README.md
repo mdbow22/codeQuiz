@@ -9,6 +9,8 @@ This app is a timed quiz testing knowledge of basic JavaScript information.
 3. High scores are saved in localStorage so user can compare how they do each time.
 4. App makes use of DOM manipulation using vanilla JS and localStorage to create a one-page app.
 
+A live demo of the app can be found at https://mdbow22.github.io/codeQuiz/ 
+
 ## Screenshots
 
 Screenshot of the page at initial load:
